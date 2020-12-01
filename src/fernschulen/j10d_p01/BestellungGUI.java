@@ -50,7 +50,7 @@ public class BestellungGUI extends JFrame{
 					beilage = beilage + " keine";
 				//eine Meldung mit dem Essen anzeigen
 				//mitten auf dem Bildschirm
-				JOptionPane.showMessageDialog(null, "Bitte sehr!\n" + essen + beilage);
+				JOptionPane.showMessageDialog(BestellungGUI.this, "Bitte sehr!\n" + essen + beilage);
 				//oder über dem Fenster der Anwendung
 				//JOptionPane.showMessageDialog(BestellungGUI.this, "Bitte sehr!\n" + essen + beilage);
 				
